@@ -1,11 +1,8 @@
 pragma solidity >=0.4.24 <0.5.0;
 
-
-import "./libs/lifecycle/LockableDestroyable.sol";
-import "./libs/math/AdditiveMath.sol";
-import "./libs/token/SecurityToken.sol";
-import "./libs/compliance/Compliance.sol";
-import "./libs/registry/Storage.sol";
+import "../libs/token/SecurityToken.sol";
+import "../libs/lifecycle/LockableDestroyable.sol";
+import "../libs/compliance/Compliance.sol";
 
 
 contract TokenImpl is SecurityToken, LockableDestroyable {
